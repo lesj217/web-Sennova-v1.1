@@ -1,0 +1,143 @@
+body{
+	font-family: 'Abel', sans-serif;
+	margin: 0;
+	height: 100%;
+	position: relative;
+}
+
+
+
+/****************************************************************************************************/
+/*                                     Styles de la view 404                                        */
+/****************************************************************************************************/                  
+.error404 h1{     
+ color: red;       
+}                 
+ 
+.error404:hover h1{
+padding-top: 50px;
+color: #000000;
+
+}
+/****************************************************************************************************/
+/*                                     Styles de header                                             */
+/****************************************************************************************************/
+
+#header-container{
+	background-color: #1c3643;
+	
+	
+}
+
+#header-container img{
+
+	height: 50px;
+	width: 80%;
+}
+
+#header-container .login{
+	color: white;
+	text-decoration: none;
+}
+
+.a-login{
+text-decoration: none;
+display: inline-block;
+font-weight: 700;
+cursor: pointer;
+
+}
+.login{
+
+	margin-left: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+/****************************************************************************************************/
+/*                                     Styles de la nav                                             */
+/****************************************************************************************************/
+.barras{
+	cursor: pointer;
+}
+
+#menu-container{
+	background-color: #cfcfd0;
+	
+}
+
+input.form-control:focus{
+	border-color: #50ae3f;
+}
+
+.btn.btn-busc{
+	background-color: #74b848;
+	color: white;
+}
+
+.btn.btn-busc:hover {
+	background-color: #8ab542;
+}
+
+.nav-item{
+	list-style: none;
+}
+/****************************************************************************************************/
+/*                                     Styles de section                                            */
+/****************************************************************************************************/
+
+#info-container{
+	background-color: white;
+	
+}
+
+
+
+#Title-seccion h4{
+	margin-top: 10px;
+}
+
+#info-container img{
+	height: 15em;
+	width: 100%;
+	
+}
+
+.semiN{
+	cursor: pointer;
+	text-decoration: none;
+	padding: 10px;
+}
+
+/****************************************************************************************************/
+/*                                     Styles de footer                                             */
+/****************************************************************************************************/
+
+#footer-container {
+     background-color: #1c3643;
+	 color: white;
+	padding: 20px;
+	
+	
+}
+
+#footer-container h4 {
+	font-size: 16px;
+}
+
+#footer-container img{
+	height: 40px;
+	width: 40px;
+}
+
+.redes{
+	margin-right: 15px;
+	display: inline-block;
+}
+
+.Copyright{
+	background-color: rgb(50, 50, 50);
+    padding-top: 0.15rem; 
+    padding-bottom: 0.15rem;
+    color: #ffffff;
+}
